@@ -45,7 +45,9 @@ public class comparatorandcomparable {
         carArray[1] = new Car("Sedan","diesel");
         carArray[2] = new Car("hatchback","cng");
 
-        Arrays.sort(carArray,(Car obj1 , Car obj2) -> obj2.CarType.compareTo(obj1.CarType));
+        Arrays.sort(carArray,(Car obj1 , Car obj2) -> obj2.CarType.compareTo(obj1.CarType)); //Based on CarType
+        //Arrays.sort(carArray,(Car obj1 , Car obj2) -> obj2.CarType.compareTo(obj1.CarType)); //Based on CarName
+        
 
         for(Car car : carArray){
             System.out.println(car.CarName + " -- "+car.CarType);
@@ -54,3 +56,4 @@ public class comparatorandcomparable {
 
     }
 }
+    
