@@ -39,6 +39,5 @@ public class linkedhashedmap_and_treemap {
 
         System.out.println(map2.lastKey());
         
-
     }
 }
